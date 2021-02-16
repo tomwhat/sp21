@@ -24,11 +24,8 @@ sudo apt install -y scala
 
 If you're using Go, follow [the installation instructions on Go's website](https://golang.org/doc/install).
 
-<!--
-If you're using Haskell, install Cabal:
+You shouldn't need to use version-dependent language features, but if it helps, these are the version numbers of software currently installed on the grading server:
 
-```
-sudo apt install -y cabal-install
-cabal new-update
-```
--->
+- JDK: 11.0.9.1
+- Scala: 2.11.12
+- Go: 1.15.7

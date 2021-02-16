@@ -11,6 +11,7 @@ Due dates are posted on the [class schedule](../README.md).
 1. [Parser](#parser)
 1. [Additional Notes](#additional-notes)
 1. [Project evaluation](#project-evaluation)
+1. [Submission](#submission)
 
 ## IMPORTANT NOTE
 
@@ -78,6 +79,29 @@ This phase will not be officially graded. However, each student will still be re
 To catalyze the group formation process, we will make all students' repositories visible to all other students in the class on the due date. This will also be an opportunity for the students to assess the similarities and differences in their approaches and how to combine the scanners/parsers together.
 
 However, copying code between the projects is strictly forbidden. While the students are allowed to inspect and discuss other students' solutions, copying code will be considered cheating. We will be strict in enforcing this policy!
+
+## Submission
+
+To submit this phase, commit all work and run the following commands:
+
+```
+git checkout -b phase1-submission
+git push origin phase1-submission
+git switch master
+```
+
+This creates a new branch called `phase1-submission`, pushes it to Github, then returns back to the `master` branch. You can resubmit using the following commands:
+
+```
+git switch phase1-submission
+git rebase master
+git push origin phase1-submission
+git switch master
+```
+
+This pulls the commits from `master` into `phase1-submission`, pushes them to Github, then returns back to the `master` branch. You can resubmit as many times as you like.
+
+Even though this phase isn't officially graded, please submit your work by the deadline to ensure that your setup is compatible with the grading server's. Login to the [class portal](https://6035.github.io/portal/) (with the API token you received by email) to check that your submission is evaluated correctly. The score shown should match the percentage of tests you passed locally.
 
 ## Appendix: Why we defer integer range checking until the next project
 
