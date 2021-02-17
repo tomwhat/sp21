@@ -45,7 +45,7 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 
 |                 | Monday          | Tuesday         | Wednesday       | Thursday        | Friday          |
 | :-:             | :-:             | :-:             | :-:             | :-:             | :-:             |
-| `02/15 - 02/19` |                 | __FIRST DAY__<br/>[LOGISTICS FORM][gform-1]<br/>[L: regex~39][lec02] | L: regex           | L: top-down               | [P1 RELEASE][P1 RELEASE]<br/>L: top-down |
+| `02/15 - 02/19` |                 | __FIRST DAY__<br/>[LOGISTICS FORM][gform-1]<br/>[L: regex~39][lec02] | [L: regex~62][lec02] | [L: top-down~53][lec03] | [P1 RELEASE][P1 RELEASE]<br/>L: top-down |
 | `02/22 - 02/26` | P1 INFO SESSION |                 |                 |                 |                 |
 | `03/01 - 03/05` | L: shift-reduce               | L: shift-reduce               | L: shift-reduce               | L: shift-reduce               | __P1 DUE__<br/>L: shift-reduce |
 | `03/08 - 03/12` | Student holiday | SUBMIT TEAM<br/>L: IR | L: IR             | L: sem               | L: sem               |

@@ -1,8 +1,8 @@
 # Submitting miniquizzes
 
-You will be given access to a `quizzes` repository after filling out the logistics form. Submit answers to the miniquizzes there.
+You will be given access to a `<kerb>-quizzes` repository after filling out the logistics form. Submit answers to the miniquizzes there.
 
-For text responses, click on the corresponding file (e.g. `mq00` for miniquiz 0), click the "edit" button on the right side (shaped like a pencil), type in your answer, then click "Commit changes". The file you submit should not be blank.
+For text responses, click on the corresponding file (e.g. `mq00` for miniquiz 0), click the "edit" button on the right side (shaped like a pencil), type in your answer, then click "Commit changes". The file you submit should not be blank. **If it says "Propose changes" instead of "Commit changes", check that you're committing to the correct repository, i.e. `<kerb>-quizzes`.** If you end up making a PR to the wrong repository, your submission will be public for everyone to see.
 
 For non-text responses (PDF or PNG/JPG images), rename the file so that it starts with the mqXX prefix and has the right file extension. For example, `mq04_page1.png` is a valid name for a PNG image for miniquiz 4. On the website, click "Add file" (next to the green "Code" button), click "Upload files", upload the files, then click "Commit changes".
 
