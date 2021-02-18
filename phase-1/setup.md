@@ -29,3 +29,6 @@ You shouldn't need to use version-dependent language features, but if it helps, 
 - JDK: 11.0.9.1
 - Scala: 2.11.12
 - Go: 1.15.7
+- Ant: 1.10.5
+
+Note that software on the grading server might get upgraded throughout in the semester.

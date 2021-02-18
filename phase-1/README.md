@@ -101,7 +101,9 @@ git switch master
 
 This pulls the commits from `master` into `phase1-submission`, pushes them to Github, then returns back to the `master` branch. You can resubmit as many times as you like.
 
-Even though this phase isn't officially graded, please submit your work by the deadline to ensure that your setup is compatible with the grading server's. Login to the [class portal](https://6035.github.io/portal/) (with the API token you received by email) to check that your submission is evaluated correctly. The score shown should match the percentage of tests you passed locally.
+Even though this phase isn't officially graded, please submit your work by the deadline to ensure that your setup is compatible with the grading server's. Login to the [autograder portal](https://6035.github.io/portal/) (with the API token you received by email) to check that your submission is evaluated correctly. The score shown should match the percentage of tests you passed locally.
+
+Note that the portal **does not reflect any final grades**. We will read your code and may, for example, give a lower grade for bad-faith projects (e.g. using non-approved third-party libraries or writing code specific to particular tests in the test suites).
 
 ## Appendix: Why we defer integer range checking until the next project
 

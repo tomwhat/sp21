@@ -45,8 +45,8 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 
 |                 | Monday          | Tuesday         | Wednesday       | Thursday        | Friday          |
 | :-:             | :-:             | :-:             | :-:             | :-:             | :-:             |
-| `02/15 - 02/19` |                 | __FIRST DAY__<br/>[LOGISTICS FORM][gform-1]<br/>[L: regex~39][lec02] | [L: regex~62][lec02] | [L: top-down~53][lec03] | [P1 RELEASE][P1 RELEASE]<br/>L: top-down |
-| `02/22 - 02/26` | P1 INFO SESSION |                 |                 |                 |                 |
+| `02/15 - 02/19` |                 | __FIRST DAY__<br/>[LOGISTICS FORM][gform-1]<br/>[L: regex~39][lec02] | [L: regex~62][lec02] | [L: top-down~53][lec03] | [P1 RELEASE][P1 RELEASE]<br/>[L: top-down~$][lec03] |
+| `02/22 - 02/26` | P1 OH<br/>(during lecture slot) |                 |                 |                 |                 |
 | `03/01 - 03/05` | L: shift-reduce               | L: shift-reduce               | L: shift-reduce               | L: shift-reduce               | __P1 DUE__<br/>L: shift-reduce |
 | `03/08 - 03/12` | Student holiday | SUBMIT TEAM<br/>L: IR | L: IR             | L: sem               | L: sem               |
 | `03/15 - 03/19` | L: codegen              | L: codegen               | L: codegen               | L: codegen               | ADD DATE<br/>__P2 DUE__<br/>L: codegen |
@@ -78,11 +78,15 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 <!--- others --->
 [piazza]: https://piazza.com/mit/spring2021/6035
 [gform-1]: https://forms.gle/R2BebDW2ZEXfwtdE8
+[gform-2]: TBD
 
 <!--- project phases --->
 [P1 RELEASE]: phase-1/
 [P2 RELEASE]: phase-2/
 [P3 RELEASE]: phase-3/
+
+[pset a]: materials/handouts/psets/pset-a.md
+[pset a sol]: materials/handouts/psets/pset-a-sol.md
 
 <!--- handouts --->
 [course tools]: materials/handouts/01-athena.pdf
