@@ -72,7 +72,9 @@ An ANTLR generated scanner produces a string of tokens as its output. Each token
 - `line`: The line in which the token appears.
 - `col`: The column in which the token appears.
 
-Every distinguishable terminal in your Decaf grammar will have an automatically generated unique integer associated with it so that the parser can differentiate them. These values are created from your scanner grammar and are stored in the generated `*TokenTypes.java` files.
+Every distinguishable terminal in your Decaf grammar will have an automatically generated unique integer associated with it so that the parser can differentiate them. These values are created from your scanner grammar and stored in the generated `*TokenTypes.java` files.
+
+**Note:** You might be familiar with regexes from other languages. ANTLR 2's lexer rule syntax might share some similarities, but is actually very different. Consult the ANTLR 2 documentation for how to write them correctly.
 
 ## Go
 
