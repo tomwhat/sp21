@@ -18,12 +18,16 @@ git pull skeleton master
 git remote add origin git@github.com:6035/<YOUR KERB>-phase1.git
 git push -u origin master
 
-git clone https://github.com/6035/tests.git
+git clone git@github.com:6035/tests.git
 ```
 
-This should initialize your phase 1 project directory with the skeleton code for your chosen language, and pull a copy of the tests repository into your project. The tests are managed as a separate Git project and should already be `gitignore`'d  in the provided skeleton code.
+This should initialize your phase 1 project directory with the skeleton code for your chosen language, and pull a copy of the tests repository into your project. The tests are managed as a separate Git project and should already be `gitignore`'d  in the provided skeleton code. If you get `Permission denied (publickey)`, make sure you have set up an SSH key with GitHub (see the [Git handout](git.md))
 
-Make sure that your environment is set up correctly by running the parser tests: `./tests/test.py parser`. More information about the test framework can be found below.
+Make sure that your environment is set up correctly by running the parser tests: `./tests/test.py parser`. More information about the test framework can be found below. Note that you need `gcc` installed to run the test script. You can install it with the following command:
+
+```
+sudo apt install -y build-essential
+```
 
 While you are encouraged to use this infrastructure, you may also choose to modify it however you like, or even ignore it and design your own infrastructure from scratch. If you choose to do so, you will still need to replicate all command line options and the functionality required for the scripts that build and execute the compiler, as detailed in the [project specification][project info]. You should also still be able to clone the `tests` repository into your project directory and run the test harness as described in [Running your compiler](#running-your-compiler).
 
@@ -101,7 +105,9 @@ All skeleton projects come with a `build.sh` and `run.sh` in the project root. U
 
 Arguments passed to `run.sh` are passed straight to your compiler. Read the [project specification][project info] for more information about the command-line arguments that your compiler should accept.
 
-You should have cloned the `tests` repository as part of the setup process. You will need to pull from it at the start of each phase as more tests are released throughout the semester. It comes with a file `test.py` to help you (and the grading server) run tests easily. You should run `./tests/test.py -h` (from your project root) to see what arguments you can pass in. Here are some examples:
+You should have cloned the `tests` repository as part of the setup process. You will need to pull from it at the start of each phase as more tests are released throughout the semester. It comes with a file `test.py` to help you (and the grading server) run tests easily.
+
+Run `./tests/test.py -h` (from your project root) to see what arguments you can pass in. Here are some examples:
 
 - `./tests/test.py scanner -l` lists the scanner tests.
 - `./tests/test.py scanner -j4` runs all scanner tests using four threads.

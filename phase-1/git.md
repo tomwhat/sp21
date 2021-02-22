@@ -14,6 +14,16 @@ git config --global user.email "<email>"
 git config --global user.name "<name>"
 ```
 
+You should also set up SSH access with Git. Run the following command to generate an SSH key:
+
+```
+ssh-keygen
+```
+
+Accept the default key location and enter a password you'll remember. Depending on your threat model, you can also just leave the password empty; it'll only be used to encrypt a key that won't leave your machine.
+
+Next, go to GitHub, click your user icon on the top right, click `Settings`, then click `SSH and GPG keys` on the left navigation bar. Click `New SSH key`, open `~/.ssh/id_rsa.pub` in a text editor (you can do this by running `xdg-open ~/.ssh/id_rsa.pub` in the terminal) and copy its contents into the `Key` box. Give it any title, and click `Add SSH key`.
+
 # Using Git
 
 There are many different ways to use Git with different workflows more suited for different kinds of projects. Here we'll describe the rebase workflow, which is appropriate for projects where multiple people contribute to a single "main branch" (e.g. your compiler!).
