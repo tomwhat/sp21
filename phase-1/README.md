@@ -24,7 +24,9 @@ On the other hand, the Go parser generator generates a shift-reduce parser, whic
 1. Read the [project specification](../materials/handouts/01-project-spec.md). __Pay special attention to the policy on third-party libraries.__
 1. Follow [these instructions](setup.md) to set up a programming environment.
 1. Follow [these instructions](class-tools.md) to set up and understand the class tools.
-1. Read the [Decaf spec][decaf spec], specifically the first two sections. Note that the first section alone does not fully describe the language, and you will need to refer to the Reference Grammar when implementing the scanner and parser.
+1. Read the [Decaf spec][decaf spec], specifically the first two sections.
+
+	Note that the first section alone does not fully describe the language, and you will need to refer to the Reference Grammar when implementing the scanner and parser. Also note that the reference grammar does not specify what goes into the scanner and what goes into the parser; you will have to determine this split yourself.
 
 ## Scanner
 
