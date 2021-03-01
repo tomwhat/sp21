@@ -107,6 +107,8 @@ Even though this phase isn't officially graded, please submit your work by the d
 
 Note that the portal **does not reflect any final grades**. We will read your code and may, for example, give a lower grade for bad-faith projects (e.g. using non-approved third-party libraries or writing code specific to particular tests in the test suites).
 
+You don't have to submit any documentation/writeups for this phase.
+
 ## Appendix: Why we defer integer range checking until the next project
 
 When considering the problem of checking the legality of the input program, there is no fundamental separation between the responsibilities of the scanner, the parser and the semantic checker. Often, the compiler designer has the choice of checking a certain constraint in a particular phase, or even of dividing the checking across multiple phases. However, for pragmatic reasons, we have had to divide the complete scan/parse/check unit into two parts simply to fit the course schedule better.
