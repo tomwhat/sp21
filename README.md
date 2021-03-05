@@ -47,8 +47,8 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 | :-:             | :-:             | :-:             | :-:             | :-:             | :-:             |
 | `02/15 - 02/19` |                 | __FIRST DAY__<br/>[LOGISTICS FORM][gform-1]<br/>[L: regex~39][lec02] | [L: regex~62][lec02] | [L: top-down~53][lec03] | [P1 RELEASE][P1 RELEASE]<br/>[L: top-down~$][lec03] |
 | `02/22 - 02/26` | P1 OH<br/>(during lecture slot) |                 |                 |                 |                 |
-| `03/01 - 03/05` | [L: shift-reduce~104][lec04] | [L: shift-reduce~133][lec04] | [L: shift-reduce~$][lec04]<br/>[L: IR~52][lec05] | [L: IR~$][lec05] | __P1 DUE__<br/>[L: sem][lec06] |
-| `03/08 - 03/12` | Student holiday | SUBMIT TEAM<br/>L | L             | L               | L               |
+| `03/01 - 03/05` | [L: shift-reduce~104][lec04] | [L: shift-reduce~133][lec04] | [L: shift-reduce~$][lec04]<br/>[L: IR~52][lec05] | [L: IR~$][lec05] | __P1 DUE__<br/>[P2 RELEASE][P2 RELEASE]<br/>[PSET A][pset a]<br/>[L: sem~$][lec06] |
+| `03/08 - 03/12` | Student holiday | [SUBMIT TEAM][SUBMIT TEAM]<br/>L: codegen | L: codegen | L: codegen | L: codegen |
 | `03/15 - 03/19` | L: codegen              | L: codegen               | L: codegen               | L: codegen               | ADD DATE<br/>__P2 DUE__<br/>L: codegen |
 | `03/22 - 03/26` | Student holiday | Student holiday |                 |                 | __PSET A DUE__  |
 | `03/29 - 04/02` | L: opt               | L: dataflow               | L: dataflow               | L: dataflow               | L: dataflow               |
@@ -78,21 +78,20 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 <!--- others --->
 [piazza]: https://piazza.com/mit/spring2021/6035
 [gform-1]: https://forms.gle/R2BebDW2ZEXfwtdE8
-[gform-2]: TBD
 
 <!--- project phases --->
 [P1 RELEASE]: phase-1/
 [P2 RELEASE]: phase-2/
 [P3 RELEASE]: phase-3/
 
-[pset a]: materials/handouts/psets/pset-a.md
-[pset a sol]: materials/handouts/psets/pset-a-sol.md
+[pset a]: materials/psets/pset-a.md
+[pset a sol]: materials/psets/pset-a-sol.md
 
 <!--- handouts --->
 [course tools]: materials/handouts/01-athena.pdf
 [project info]: materials/handouts/01-project-overview.pdf
 [decaf spec]: materials/handouts/01-decaf-spec.pdf
-[SUBMIT TEAM]: TBD
+[SUBMIT TEAM]: https://forms.gle/LMbee24cAhgtchfM7
 [quiz]: materials/exam/2019fa-exam1.pdf
 [solutions]: materials/exam/2019fa-exam1-answers.pdf
 
