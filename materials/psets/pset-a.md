@@ -2,7 +2,9 @@
 
 1. Let L be the language of binary strings that have an even number of 0's **and** and even number of 1's.
 	1. Write a regular expression that recognizes L. Use only the syntax used in lecture: |, \*, ε, ().
-	1. Draw a DFA that recognizes L. You may derive it from scratch, or from your regular expression by converting it to an NFA and then to a DFA. Clearly indicate the start state and accept states. Challenge: use at most four states.
+	1. Draw a DFA that recognizes L. You may derive it from scratch, or from your regular expression by converting it to an NFA and then to a DFA. Clearly indicate the start state and accept states. As a reminder, each edge should contain exactly one character; do not merge edges.
+
+		Challenge: use at most four states. (This is entirely optional, there is no extra credit.)
 
 1. Consider the following grammar. Symbols in uppercase are non-terminals, while symbols in lowercase are non-terminals. You can think of this as describing a language containing only C-style increments, e.g. `a++ ++a a a++ a`.
 
