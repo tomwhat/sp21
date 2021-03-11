@@ -48,10 +48,10 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 | `02/15 - 02/19` |                 | __FIRST DAY__<br/>[LOGISTICS FORM][gform-1]<br/>[L: regex~39][lec02] | [L: regex~62][lec02] | [L: top-down~53][lec03] | [P1 RELEASE][P1 RELEASE]<br/>[L: top-down~$][lec03] |
 | `02/22 - 02/26` | P1 OH<br/>(during lecture slot) |                 |                 |                 |                 |
 | `03/01 - 03/05` | [L: shift-reduce~104][lec04] | [L: shift-reduce~133][lec04] | [L: shift-reduce~$][lec04]<br/>[L: IR~52][lec05] | [L: IR~$][lec05] | __P1 DUE__<br/>[P2 RELEASE][P2 RELEASE]<br/>[PSET A][pset a]<br/>[L: sem~$][lec06] |
-| `03/08 - 03/12` | Student holiday | [SUBMIT TEAM][SUBMIT TEAM]<br/>[L: codegen~58][lec07] | [L: codegen~79][lec07] | [L: codegen][lec07] | L: codegen |
-| `03/15 - 03/19` | L: codegen              | L: codegen               | L: codegen               | L: codegen               | ADD DATE<br/>__P2 DUE__<br/>L: codegen |
-| `03/22 - 03/26` | Student holiday | Student holiday |                 |                 | __PSET A DUE__  |
-| `03/29 - 04/02` | L: opt               | L: dataflow               | L: dataflow               | L: dataflow               | L: dataflow               |
+| `03/08 - 03/12` | Student holiday | [SUBMIT TEAM][SUBMIT TEAM]<br/>[L: codegen~58][lec07] | [L: codegen~79][lec07] | [L: codegen~$][lec07] | |
+| `03/15 - 03/19` | | | | | ADD DATE<br/>__P2 DUE__<br/> |
+| `03/22 - 03/26` | Student holiday | Student holiday | L: dataflow | L: dataflow | __PSET A DUE__<br/>L: dataflow |
+| `03/29 - 04/02` | L: dataflow | L: dataflow               | L: dataflow               | L: dataflow               | L: dataflow               |
 | `04/05 - 04/09` |                 |                 |                 |                 | __P3 DUE__      |
 | `04/12 - 04/16` | L: loops               | L: loops               | L: reg               | CPW<br/>L: lattice       | CPW<br/>L: lattice       |
 | `04/19 - 04/23` | Patriots' Day   | Student holiday | L: lattice               | L: lattice               | __P4 DUE__<br/>L: lattice      |
