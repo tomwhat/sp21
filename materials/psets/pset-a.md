@@ -51,7 +51,7 @@
 	}
 	```
 
-	For each of the following code snippets, does there exist an assignment of types to variables that would make it typecheck? If so, provide a type for `r`, and state what would be printed under static and dynamic dispatch respectively. If not, explain why.
+	For each of the following code snippets, does there exist an assignment of types to variables that would make it typecheck? If so, provide a type for `r`, and state what would be printed under static and dynamic dispatch respectively when `b = true`. If not, explain why.
 
 	1. ```
 		...
