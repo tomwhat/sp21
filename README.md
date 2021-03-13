@@ -55,7 +55,7 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 | `04/05 - 04/09` |                 |                 |                 |                 | __P3 DUE__      |
 | `04/12 - 04/16` | L: loops               | L: loops               | L: reg               | CPW<br/>L: lattice       | CPW<br/>L: lattice       |
 | `04/19 - 04/23` | Patriots' Day   | Student holiday | L: lattice               | L: lattice               | __P4 DUE__<br/>L: lattice      |
-| `04/26 - 04/30` | L: parallel               | L: parallel               |                 | DROP DATE   | __PSET B DUE__  |
+| `04/26 - 04/30` | L: parallel | | L: parallel | DROP DATE   | __PSET B DUE__  |
 | `05/03 - 05/07` |                 |                 |                 |                 | __CHECKPOINT__  |
 | `05/10 - 05/14` |                 |                 |                 |                 |                 |
 | `05/17 - 05/21` |                 |                 | __P5 DUE__      | __LAST DAY__<br/>__DERBY__ |      |
