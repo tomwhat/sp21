@@ -56,6 +56,17 @@ In future phases, the writeup will also serve as a design document help us under
 
 ## Submission
 
+Submitted repositories should have the following structure:
+
+```txt
+<repo name>
+├── build.sh
+├── run.sh
+├── doc/
+│   └── phase2.pdf  // phase 2 writeup
+└── ...
+```
+
 Use the same procedure as in [phase 1](../phase-1/README.md#submission) to submit, but this time to the branch `phase2-submission`. Again, check that your submission gives the correct score on the grading server, but keep in mind that nothing on the grading server represents final scores.
 
 Note: please don't spam the grading server! Only submit when you're ready to submit, and **make sure that your compiler doesn't get caught in an infinite loop when running any of the tests**. Your order in the grading queue is determined by the total amount of time your team has consumed in previous submissions.
