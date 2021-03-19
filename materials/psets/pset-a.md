@@ -83,7 +83,7 @@ Submit the problem set on Gradescope. The link and entry code will be provided o
 
 ## Hints
 
-- (1i) Construct a regular expression for the language of strings with alphabet `{e, o}`, that contain any number of e's but an odd number of o's.
+- (1i) Construct a regular expression for the language of strings with alphabet `{e, o}`, that contain any number of e's but an even number of o's.
 - (1i) In the previous hint, what happens if you replace `e` with `(00|11)` and `o` with `(01|10)`?
 - (1i) Check that your regular expression accepts the string `1111010000101111`.
 - (2iii) There are multiple ways to approach this problem, but this is one of them. Let `S1 → id`, `S2 → pp id`, and `S3 → id pp`. Now define `L1`, `L2` and `L3` to be sequences of `S`s ending with an `S1`, `S2` and `S3` respectively. Construct recursive rules of the form `Li → Lj Si`. Which of these rules should be eliminated?
