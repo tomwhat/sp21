@@ -50,7 +50,7 @@ __!!! Note: This schedule is tentative and may change throughout the semester. !
 | `03/01 - 03/05` | [L: shift-reduce~104][lec04] | [L: shift-reduce~133][lec04] | [L: shift-reduce~$][lec04]<br/>[L: IR~52][lec05] | [L: IR~$][lec05] | __P1 DUE__<br/>[P2 RELEASE][P2 RELEASE]<br/>[PSET A][pset a]<br/>[L: sem~$][lec06] |
 | `03/08 - 03/12` | Student holiday | [SUBMIT TEAM][SUBMIT TEAM]<br/>[L: codegen~58][lec07] | [L: codegen~79][lec07] | [L: codegen~$][lec07] | |
 | `03/15 - 03/19` | | | | | ADD DATE<br/>__P2 DUE__<br/> |
-| `03/22 - 03/26` | Student holiday | Student holiday | [L: dataflow][lec08] | L: dataflow | __PSET A DUE__<br/>L: dataflow |
+| `03/22 - 03/26` | Student holiday | Student holiday | [L: dataflow~31][lec08] | [L: dataflow][lec08] | __PSET A DUE__<br/>L: dataflow |
 | `03/29 - 04/02` | L: dataflow | L: dataflow               | L: dataflow               | L: dataflow               | L: dataflow               |
 | `04/05 - 04/09` |                 |                 |                 |                 | __P3 DUE__      |
 | `04/12 - 04/16` | L: loops               | L: loops               | L: reg               | CPW<br/>L: lattice       | CPW<br/>L: lattice       |
