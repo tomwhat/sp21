@@ -6,7 +6,7 @@
 
 		Challenge: use at most four states. (This is entirely optional, there is no extra credit.)
 
-1. Consider the following grammar. Symbols in uppercase are non-terminals, while symbols in lowercase are non-terminals. You can think of this as describing a language containing only C-style increments, e.g. `a++ ++a a a++ a`.
+1. Consider the following grammar. Symbols in uppercase are non-terminals, while symbols in lowercase are terminals. You can think of this as describing a language containing only C-style increments, e.g. `a++ ++a a a++ a`.
 
 	```
 	(1) L → S
